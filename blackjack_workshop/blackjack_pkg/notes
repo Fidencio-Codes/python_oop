@@ -1,0 +1,52 @@
+# Blackjack with classes! 
+
+################ Overview #############
+# Text based game 
+
+# variables
+# computer is the dealer 
+# player is the user
+# dealer/player chip amounts
+# stack of cards 
+# bet amounts for player and dealer
+# sum of cards 
+#  
+# player goals: 
+        # 1. 
+        # get as close to the value of 21 than dealer. 
+        # Blackjack = 21, making you the winner
+
+# player places a bet, computer places bet also (randomly?)
+# dealer will pass out 2 cards each 
+# dealer cards are shown as one face-up and one face-down card
+#     while both player cards are face up
+    # player can only see second dealer card
+# player goes first
+# hit method
+# 
+# possible actions #
+#   1. Hit - adds another card to player 
+#   2. Stay - stops receiving cards 
+# 
+#  possible outcomes #
+    # in game #
+# when the player/dealer busts 
+# checking for bust happens after player 1st move or dealer's turn  
+    # if player hits x times and the sum of all card values > 21 
+    # then player bet amt is dbled and then decreased from the players chip total 
+    # and amount is added to dealer chip amount 
+# vice versa for dealer 
+    # after each game # 
+# player will be asked if they want to play another game 'y' ot 'n'
+# if 'y': keep your new chip total and loop game (end_of_game = False still)
+# if 'n': 
+#   end_of_game is True 
+#   print("Player earnings stand at {chip_total}") 
+
+# Classes #
+#  __str__ method called to convert to string
+
+# Rules #
+# jacks, queens and kings value is 10
+# aces are value of 1 or 11 (value used is whichever is most preferable to the player)
+
