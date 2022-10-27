@@ -1,11 +1,11 @@
 # python_oop
-Exercises used in my learning of python object oriented programming 
+- Object Oriented Programming Exercises 
 
 ## Topics 
-- classes, inheritance
+- Object Oriented Programming
 - abstract data types 
-- binary search 
+- search algorithms  
 - linked lists
 - stacks
-- queues 
+- sort algorithms 
 - linear search
