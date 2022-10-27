@@ -12,6 +12,8 @@ class User:
     def change_password(self, password):
         self.password = password
         print("Your password has been changed to", self.password)
+
+
 class BankUser(User):
     def __init__(self, name, pin, password):
         super().__init__(name, pin, password)
@@ -51,6 +53,7 @@ class BankUser(User):
         if from_acc.password != from_acc.password: print("Invalid password. Transaction cancelled")
         if from_acc.password != from_acc.password and to_acc.pin != to_acc.pin: print("Invalid password and PIN. Transaction cancelled")
         return False
+
 
 """Driver Test code for task 1"""
 # test_code = User("Gerardo", 1234, "bestpw")
